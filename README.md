@@ -88,10 +88,10 @@ Modify the function `main()` so that 3 messages are received. Modify the `make` 
 Run the program and explain how the result differs compared to the original solution with no buffered channels.
 
 
-### **EXTRA** Question 1e
+<!--### **EXTRA** Question 1e
 
 Watch the [video on 'Debugging with Delve'](https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS20008_2023_TB-1/CONTENT_2023/tuts/DebuggingWithDelve/debugging_with_delve_1.mp4) and play around with some of the debug commands on the programs that you have written in Lab 1.
-
+-->
 ## Question 2 - Ping Pong :red_circle::white_circle::white_circle::white_circle::white_circle:
 
 ### Question 2a
@@ -141,7 +141,7 @@ Bar is sending: pong
 Foo has received: pong
 ...
 ```
-
+<!--
 ### Question 2c
 
 You may have noticed that `main` talks about tracing. An execution trace in go is similar to a stack trace, except now we have multiple threads of execution and therefore a simple linear trace is no longer very clear. An execution trace allows us to see exactly when each goroutine was running, in which function and how it communicated with other goroutines.
@@ -170,6 +170,7 @@ To navigate the trace you will need to use your keyboard. Use W and S to zoom in
 If your ping-pong code is correct your trace should look very similar to the one above. Each block means that the goroutine was running and each arrow represents a message on a channel.
 
 </details>
+-->
 
 ## Question 3 - for-select :red_circle::white_circle::white_circle::white_circle::white_circle:
 
